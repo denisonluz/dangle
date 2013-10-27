@@ -28,7 +28,7 @@ angular.module('dangle')
         'use strict';
 
         return {
-            restrict: 'E',
+            restrict: 'EA',
 
             // set up the isolate scope so that we don't clobber parent scope
             scope: {
